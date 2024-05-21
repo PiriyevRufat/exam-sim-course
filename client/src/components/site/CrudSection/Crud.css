@@ -1,0 +1,23 @@
+.courses-heading h1::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 55px;
+    height: 4px;
+    content: '';
+    background: #ffb606;
+}
+.courses-heading{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+.courses-heading h1{
+    margin-top: 15px;
+}

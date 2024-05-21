@@ -1,0 +1,36 @@
+.home-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 45px;
+    z-index: 10;
+    background-color: #fff;
+    max-width: 1318px;
+    height: 99px;
+}
+.nav-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+}
+.home-header ul li{
+    margin-right: 25px;
+}
+.nav-right{
+    background-color: #ffb606;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+}
+.nav-right img{
+    width: 29px;
+    height: 29px;
+}

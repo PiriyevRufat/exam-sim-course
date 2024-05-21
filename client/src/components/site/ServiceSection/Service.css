@@ -1,0 +1,54 @@
+.service-heading h1::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 55px;
+    height: 4px;
+    content: '';
+    background: #ffb606;
+}
+.service-heading{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+.service-heading h1{
+    margin-top: 15px;
+}
+.service-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-card{
+    margin-top: 20px;
+}
+.fa-graduation-cap{
+    font-size: 25px;
+    color: #ffb606;
+}
+.fa-chalkboard{
+    font-size: 25px;
+    color: #ffb606;
+}
+.fa-user-astronaut{
+    font-size: 25px;
+    color: #ffb606;
+}
+.fa-pen-to-square{
+    font-size: 25px;
+    color: #ffb606;
+}
+.fa-earth-asia{
+    font-size: 25px;
+    color: #ffb606;
+}
+.fa-book{
+    font-size: 25px;
+    color: #ffb606;
+}
